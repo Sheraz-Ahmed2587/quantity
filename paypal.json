@@ -1,0 +1,39 @@
+{
+  "intent": "sale",
+  "payer": {
+    "payment_method": "paypal"
+  },
+  "transactions": [
+    {
+      "amount": {
+        "total": "1.00",
+        "currency": "USD"
+      },
+      "related_resources": []
+    }
+  ],
+  "redirect_urls": {
+    "return_url": "https://localhost/quantity/index.php",
+    "cancel_url": "https://localhost/quantity/checkout.php"
+  },
+  "id": "PAYID-MZDUUBA3SF82572F41894430",
+  "state": "created",
+  "create_time": "2024-05-17T12:13:55Z",
+  "links": [
+    {
+      "href": "https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MZDUUBA3SF82572F41894430",
+      "rel": "self",
+      "method": "GET"
+    },
+    {
+      "href": "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-06481267PX3985238",
+      "rel": "approval_url",
+      "method": "REDIRECT"
+    },
+    {
+      "href": "https://api.sandbox.paypal.com/v1/payments/payment/PAYID-MZDUUBA3SF82572F41894430/execute",
+      "rel": "execute",
+      "method": "POST"
+    }
+  ]
+}

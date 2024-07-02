@@ -1,0 +1,20 @@
+[14-Feb-2024 07:43:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ateckwgz_coach'@'localhost' to database 'ateckwgz_coach' in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 19
+[14-Feb-2024 07:43:49 UTC] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 20
+[14-Feb-2024 07:43:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ateckwgz_coach'@'localhost' to database 'ateckwgz_coach' in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 19
+[14-Feb-2024 07:43:49 UTC] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 20
+[14-Feb-2024 07:43:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php:61
+Stack trace:
+#0 /home/ateckwgz/softrobo.systems/projects/coach/admin/action.php(11): db::getRecord('SELECT * FROM a...')
+#1 {main}
+  thrown in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 61
+[14-Feb-2024 07:47:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ateckwgz_coach_main'@'localhost' (using password: YES) in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 20
+[14-Feb-2024 07:47:42 UTC] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 21
+[14-Feb-2024 07:48:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ateckwgz_coach_main'@'localhost' (using password: YES) in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 20
+[14-Feb-2024 07:48:09 UTC] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 21
+[14-Feb-2024 07:48:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ateckwgz_coach_main'@'localhost' (using password: YES) in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 20
+[14-Feb-2024 07:48:09 UTC] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 21
+[14-Feb-2024 07:48:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php:62
+Stack trace:
+#0 /home/ateckwgz/softrobo.systems/projects/coach/admin/action.php(11): db::getRecord('SELECT * FROM a...')
+#1 {main}
+  thrown in /home/ateckwgz/softrobo.systems/projects/coach/admin/database.php on line 62
